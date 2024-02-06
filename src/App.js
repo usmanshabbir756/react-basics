@@ -5,6 +5,7 @@ import { FirstComponent as FC , SecondComponent as SC } from './components/MyCom
 import MC from './components/MyComponent';
 import Student from './components/Student';
 import Employee from './components/Employee';
+import User from './components/User';
 
 function App() {
 
@@ -25,7 +26,8 @@ const skills=['HTML','CSS'];
       <MC /> */}
       {/* <Student firstName="Usman" lastName="Shabbir"/> */}
       {/* <Student data={skills}/> */}
-      <Employee />
+      {/* <Employee /> */}
+      <User />
     </div>
   );
 }
