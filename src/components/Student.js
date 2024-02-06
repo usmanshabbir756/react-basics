@@ -1,5 +1,27 @@
+
+// // PARAMMETER destructuring 
+// const Student=({firstName,lastName}) => {
+//     return(
+//         <div>
+//             <h1>student first name : {firstName}</h1>
+//             <h1>student last name : {lastName}</h1>
+//         </div>
+//     )
+// }
+
+// body destructuring 
+const Student=(props) => {
+    const {firstName,lastName} = props;
+    return(
+        <div>
+            <h1>student first name : {firstName}</h1>
+            <h1>student last name : {lastName}</h1>
+        </div>
+    )
+}
+
 // object 
-//const Student=(props) => {
+// const Student=(props) => {
 //     return(
 //         <div>
 //             <h1>student first name : {props.student.firstName}</h1>
@@ -9,13 +31,13 @@
 // }
 
 //array
-const Student=(props) => {
-    return(
-        <div>
-            <h1>Skills : {props.data}</h1>
-        </div>
-    )
-}
+// const Student=(props) => {
+//     return(
+//         <div>
+//             <h1>Skills : {props.data}</h1>
+//         </div>
+//     )
+// }
 
 
 

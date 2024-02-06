@@ -22,8 +22,8 @@ const skills=['HTML','CSS'];
       <FC />
       <SC />
       <MC /> */}
-      {/* <Student firstName="Usman" lastName="Shabbir"/> */}
-      <Student data={skills}/>
+      <Student firstName="Usman" lastName="Shabbir"/>
+      {/* <Student data={skills}/> */}
     </div>
   );
 }
