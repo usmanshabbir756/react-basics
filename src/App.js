@@ -7,6 +7,7 @@ import Student from './components/Student';
 import Employee from './components/Employee';
 import User from './components/User';
 import EventCount from './components/EventCount';
+import Login from './components/Login';
 
 function App() {
 
@@ -29,7 +30,8 @@ const skills=['HTML','CSS'];
       {/* <Student data={skills}/> */}
       {/* <Employee /> */}
       {/* <User /> */}
-      <EventCount />
+      {/* <EventCount /> */}
+      <Login />
     </div>
   );
 }
