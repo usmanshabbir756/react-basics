@@ -6,6 +6,7 @@ import MC from './components/MyComponent';
 import Student from './components/Student';
 import Employee from './components/Employee';
 import User from './components/User';
+import EventCount from './components/EventCount';
 
 function App() {
 
@@ -27,7 +28,8 @@ const skills=['HTML','CSS'];
       {/* <Student firstName="Usman" lastName="Shabbir"/> */}
       {/* <Student data={skills}/> */}
       {/* <Employee /> */}
-      <User />
+      {/* <User /> */}
+      <EventCount />
     </div>
   );
 }
