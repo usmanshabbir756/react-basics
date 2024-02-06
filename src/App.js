@@ -4,6 +4,7 @@ import Greeting from './components/Greeting';
 import { FirstComponent as FC , SecondComponent as SC } from './components/MyComponent';
 import MC from './components/MyComponent';
 import Student from './components/Student';
+import Employee from './components/Employee';
 
 function App() {
 
@@ -22,8 +23,9 @@ const skills=['HTML','CSS'];
       <FC />
       <SC />
       <MC /> */}
-      <Student firstName="Usman" lastName="Shabbir"/>
+      {/* <Student firstName="Usman" lastName="Shabbir"/> */}
       {/* <Student data={skills}/> */}
+      <Employee />
     </div>
   );
 }
