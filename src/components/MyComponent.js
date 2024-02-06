@@ -1,5 +1,5 @@
 export function FirstComponent(){
-    return <h1>first comonent</h1>
+    return <button className="first" onClick={handelClick}>click</button>
 }
 
 export function SecondComponent(){
@@ -8,4 +8,8 @@ export function SecondComponent(){
 
 export default function MyComponent(){
     return <h1>my component</h1>
+}
+
+function handelClick(){
+    alert('cliked');
 }
